@@ -36,7 +36,7 @@ const Home = ( ) => {
     <Row>
  <div className="icons">
  <div className="soc">  <Col>
-   
+   <Card>
  <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
   &nbsp; &nbsp;
   <a href= "mailto: somalipattjoshi19@gmail.com"><i class="far fa-envelope"></i> </a>
@@ -47,7 +47,7 @@ const Home = ( ) => {
  &nbsp; &nbsp;
 
   <a href="https://www.instagram.com/_s_o_m_a_l_i/"><i class="fab fa-instagram"></i> </a>
-  
+  </Card>
     </Col>
     </div>
    </div>
