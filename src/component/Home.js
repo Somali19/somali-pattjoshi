@@ -22,8 +22,7 @@ const Home = ( ) => {
        <h5 className="sub"> Web Developer and Designer || UI/UX Designer </h5>
        
       <hr className="lines" />
-<div className="icons">
- <div className="soc">  
+
     </Col>
     
     <Col>
@@ -32,7 +31,8 @@ const Home = ( ) => {
    
    
   </Row>
- <Col>
+ <div className="icons">
+ <div className="soc">  <Col>
    
  <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
   &nbsp; &nbsp;
