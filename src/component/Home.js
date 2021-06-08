@@ -23,7 +23,16 @@ const Home = ( ) => {
        
       <hr className="lines" />
 <div className="icons">
- <div className="soc">   <Col>
+ <div className="soc">  
+    </Col>
+    
+    <Col>
+    <img src={pic} alt="pic" className="bg" />
+    </Col>
+   
+   
+  </Row>
+ <Col>
    
  <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
   &nbsp; &nbsp;
@@ -39,14 +48,6 @@ const Home = ( ) => {
     </Col>
     </div>
    </div>
-    </Col>
-    
-    <Col>
-    <img src={pic} alt="pic" className="bg" />
-    </Col>
-   
-   
-  </Row>
    
         </Container>
 
