@@ -33,6 +33,7 @@ const Home = ( ) => {
   </Row>
 <br />
     <br />
+    <Row>
  <div className="icons">
  <div className="soc">  <Col>
    
@@ -50,6 +51,7 @@ const Home = ( ) => {
     </Col>
     </div>
    </div>
+</Row>
    
         </Container>
 
