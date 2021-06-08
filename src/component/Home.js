@@ -31,7 +31,7 @@ const Home = ( ) => {
    
    
   </Row>
- <div className="icons" style={{margin-top: "auto"}}>
+ <div className="icons">
  <div className="soc">  <Col>
    
  <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
