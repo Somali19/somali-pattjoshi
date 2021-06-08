@@ -41,7 +41,7 @@
 }
 .h {
     height: auto;
-    width:auto;
+    width:100%;
 }
 .hl {
     height: auto;
@@ -51,21 +51,4 @@
     background-color:#9461D6;
     color:white;
 }
-@media only screen and (max-width: 516px)  {
-    .h{
-        width: auto;
-        height: auto;
-    }
-}
-@media only screen and (max-width: 950px)  {
-    .h{
-        width: auto;
-     height: auto;
-    }
-}
-@media only screen and (max-width: 1120px)  {
-    .h {
-        width: auto;
-        height:auto;
-    }
-}
+
