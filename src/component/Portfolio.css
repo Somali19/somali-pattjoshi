@@ -40,7 +40,7 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.308);
 }
 .h {
-    height: 160px;
+    height: auto;
     width:auto;
 }
 .hl {
