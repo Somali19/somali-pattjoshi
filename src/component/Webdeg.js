@@ -81,40 +81,6 @@ const Webdeg = () => {
    
   </Card>
   </CardDeck>
-   <CardDeck className="cards">
-  <Card className="cards cd">
-    <Card.Img variant="top" className="h" src="x.jpg" />
-    <Card.Body>
-      <Card.Title>E-commerce Website</Card.Title>
-      <Card.Text>
-      <Badge className="bd">HTML</Badge> &nbsp;
-      <Badge className="bd">CSS</Badge> &nbsp;
-      <Badge className="bd">Bootstrap</Badge> &nbsp;
-      <Badge className="bd">JavaScript</Badge> <br /> 
-      <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
-      </Card.Text>
-    </Card.Body>
-   
-  </Card>
-  <Card className="cards cd">
-    <Card.Img variant="top" className="h" src="x.jpg" />
-    <Card.Body>
-      <Card.Title>AZ Farm</Card.Title>
-      <Card.Text>
-      <Badge className="bd">HTML</Badge> &nbsp;
-      <Badge className="bd">CSS</Badge> &nbsp;
-      <Badge className="bd">Materialize CSS</Badge> &nbsp;
-      <Badge className="bd">JavaScript</Badge> <br /> 
-      <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
-      </Card.Text>
-    </Card.Body>
-  
-  </Card>
-  </CardDeck>
   
       </Col>
       </Row>
