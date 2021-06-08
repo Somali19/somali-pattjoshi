@@ -31,6 +31,8 @@ const Home = ( ) => {
    
    
   </Row>
+<br />
+    <br />
  <div className="icons">
  <div className="soc">  <Col>
    
