@@ -1,0 +1,93 @@
+.wk {
+    margin-top: 40px;
+}
+.liinee {
+    width:20%;
+   text-align: center;
+    color: #9461D6;
+    height: 1px;
+    
+    background-color:#9461D6;
+}
+
+.c {
+text-align: center;
+margin-top: 40px;
+}
+
+
+.bt {
+    color: white;
+    background-color: #9461D6;
+    outline: none;
+}
+.bt:hover {
+    color: white;
+    background-color: #9461D6;
+    outline: none;
+}
+.bt:visited {
+    color: white;
+    background-color: #9461D6;
+    outline: none;
+  }
+  
+  
+  
+  .bt:active {
+    color: white;
+    background-color: #9461D6;
+    outline: none;
+  }
+.cc {
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mapp {
+    overflow: hidden;
+    width: 100%;
+    
+}
+.cdd {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cnt {
+    
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 40px;
+   
+ 
+}
+
+@media (max-width:780px) {
+    .cnt{
+      min-width: 100%;
+    }
+  }
+ 
+  .soc{
+   overflow: hidden;
+box-shadow: 0 4px 6px 0 rgba(0,0,0,0.16);
+  transition: 0.3s;
+margin-right: auto;
+margin-left: auto;
+padding-bottom: 20px;
+padding-top: 20px;
+max-width: 350px;
+}
+
+.soc:hover {
+    box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.363);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.410);
+-moz-box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.308);
+}
+.fa-gratipay {
+    font-size: 50px;
+}
+
+ 

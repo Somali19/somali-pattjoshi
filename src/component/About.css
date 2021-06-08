@@ -1,0 +1,46 @@
+.abt {
+    margin-top: 40px;
+}
+.bgg {
+    width: auto;
+    height: 420px;
+}
+.cont {
+    font-family: 'Amaranth', sans-serif;
+    color: #706c61;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cont1
+{
+   font-family: 'Philosopher', sans-serif;
+   margin-top: 20px;
+}
+.cont2 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 12px;
+    color: #706c61;
+    text-align: left;
+    
+}
+.bd {
+    background-color:#9461D6;
+    color:white;
+}
+
+.abt {
+    text-align: center;
+}
+.liinee {
+    width:20%;
+   text-align: center;
+    color: #9461D6;
+    height: 1px;
+    
+    background-color:#9461D6;
+}
+.m {
+    margin-bottom: 5px;
+}
