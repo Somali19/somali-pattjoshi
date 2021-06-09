@@ -50,7 +50,7 @@ const Design = () => {
 
       <Col sm={8}>
 
-      <Col sm>
+    
 
       <CardDeck className="cards">
   <Card className="cards cd">
