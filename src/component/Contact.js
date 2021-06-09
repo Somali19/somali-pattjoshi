@@ -79,7 +79,7 @@ const Contact = () => {
   &nbsp; &nbsp;
  <a href="https://www.behance.net/somusomali"><i class="fab fa-behance"></i>  </a>
  &nbsp; &nbsp;
-  <a href="https://www.instagram.com/_s_o_m_a_l_i/"><i class="fab fa-instagram"></i> </a>
+  <a href="https://dribbble.com/__Somali__"><i class="fab fa-dribbble"></i> </a>
   
  </Col> 
    
