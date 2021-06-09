@@ -20,10 +20,7 @@ import ill1 from './il1.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const Portfolio = () => {
-   const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+   
   return (
       <div>
         <h2 className="wk">  WORK </h2>
