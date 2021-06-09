@@ -27,7 +27,7 @@ const Contact = () => {
             <br /> <Form className="frm">
   <Form.Group controlId="formBasicEmail">
   
-    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Control type="email" placeholder="Enter Email" />
   </Form.Group>
   
   <Form.Group controlId="formBasicMessage">
