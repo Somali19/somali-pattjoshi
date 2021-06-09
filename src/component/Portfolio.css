@@ -41,17 +41,27 @@
 }
 .h {
     height: auto;
+<<<<<<< HEAD
     width:auto;
+=======
+    width:100%;
+>>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
 }
 .hl {
     height: auto;
     
+}
+
+.mod {
+    width:100%;
+    height:auto;
 }
 .bd {
     background-color:#9461D6;
     color:white;
     cursor: pointer;
 }
+<<<<<<< HEAD
 @media only screen and (max-width: 516px)  {
     .h{
         width: auto;
@@ -85,3 +95,6 @@ a:visited {
 a:link {
     color:white;
 }
+=======
+
+>>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a

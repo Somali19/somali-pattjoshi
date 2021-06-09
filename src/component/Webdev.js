@@ -51,7 +51,9 @@ const Webdev = () => {
     Photography
   </Badge> </NavLink>
       </Col>
+
       <Col sm={8}>
+
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={fodie} />

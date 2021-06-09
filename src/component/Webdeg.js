@@ -47,7 +47,9 @@ const Webdeg = () => {
   </Badge> </NavLink>
   
       </Col>
+
       <Col sm={8}>
+
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={webdeg1} />
@@ -76,7 +78,10 @@ const Webdeg = () => {
    
   </Card>
   </CardDeck>
+<<<<<<< HEAD
   
+=======
+>>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
   
       </Col>
       </Row>

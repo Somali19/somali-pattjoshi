@@ -47,7 +47,11 @@ const Design = () => {
   </Badge> </NavLink>
   
       </Col>
+
       <Col sm={8}>
+
+      <Col sm>
+
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={des1} />

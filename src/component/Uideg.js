@@ -49,8 +49,9 @@ const Uideg = () => {
     Photography
   </Badge> </NavLink>
       </Col>
+
       <Col sm={8}>
-      <CardDeck className="cards">
+   <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides1} />
     <Card.Body>
@@ -118,5 +119,9 @@ const Uideg = () => {
   )
 }
 
+<<<<<<< HEAD
 
 export default Uideg;
+=======
+export default Uideg;
+>>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
