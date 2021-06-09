@@ -60,11 +60,8 @@ const Portfolio = () => {
   </Badge> </NavLink>
   
       </Col>
-<<<<<<< HEAD
       <Col sm={8}>
-=======
-      <Col md sm>
->>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
+
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={fodie} />

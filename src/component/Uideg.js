@@ -119,9 +119,6 @@ const Uideg = () => {
   )
 }
 
-<<<<<<< HEAD
 
 export default Uideg;
-=======
-export default Uideg;
->>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
+

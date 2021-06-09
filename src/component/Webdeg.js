@@ -78,10 +78,7 @@ const Webdeg = () => {
    
   </Card>
   </CardDeck>
-<<<<<<< HEAD
-  
-=======
->>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
+
   
       </Col>
       </Row>
