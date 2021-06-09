@@ -70,7 +70,7 @@ const Portfolio = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd" > &nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/wee-foodiee"> <Badge className="bd" > &nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
      
       </Card.Text>
     </Card.Body>
@@ -87,7 +87,7 @@ const Portfolio = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/EduHub-web/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -105,7 +105,7 @@ const Portfolio = () => {
       <Badge className="bd">Bootstrap</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge><br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/medihub0/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -119,7 +119,7 @@ const Portfolio = () => {
       <Badge className="bd">Figma</Badge> &nbsp;
       <Badge className="bd">Canva</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -134,7 +134,7 @@ const Portfolio = () => {
       <Card.Text>
       <Badge className="bd">Figma</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -147,7 +147,7 @@ const Portfolio = () => {
       <Card.Text>
       <Badge className="bd">Adobe XD</Badge><br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -164,7 +164,7 @@ const Portfolio = () => {
       <Badge className="bd">Inkscape</Badge> &nbsp;
       <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -175,9 +175,9 @@ const Portfolio = () => {
     <Card.Body>
       <Card.Title>Pet App Design</Card.Title>
       <Card.Text>
-      <Badge className="bd">Incscape</Badge> <br /> 
+      <Badge className="bd">Figma</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>

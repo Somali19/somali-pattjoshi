@@ -9,6 +9,7 @@ import './Portfolio.css';
 import des1 from './3d-des.png';
 import des2 from './3d-des1.png';
 import des3 from './3d-des2.png';
+import ext from './ext.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import {NavLink} from 'react-router-dom';
 const Design = () => {
@@ -62,7 +63,7 @@ const Design = () => {
       <Badge className="bd">Inkscape</Badge> &nbsp;
       <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -77,7 +78,7 @@ const Design = () => {
       <Badge className="bd">Canva</Badge> &nbsp;
       <Badge className="bd">Illustrator</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -85,7 +86,7 @@ const Design = () => {
   </Card>
   </CardDeck>
    <CardDeck className="cards">
-  <Card className="cards cd">
+  <Card className="cards cd ">
     <Card.Img variant="top" className="h" src={des3} />
     <Card.Body>
       <Card.Title>3D Text</Card.Title>
@@ -94,12 +95,26 @@ const Design = () => {
       <Badge className="bd">Canva</Badge> &nbsp;
       <Badge className="bd">Photoshop</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
    
   </Card>
+   <Card className="cards cd ">
+    <Card.Img variant="top" className="h" src={ext} />
+    <Card.Body>
+      <Card.Title>Coming Soon</Card.Title>
+      <Card.Text>
+     <br /> <br /> 
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+   
+  </Card>
+  
  
   </CardDeck>
   

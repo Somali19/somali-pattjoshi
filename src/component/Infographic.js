@@ -60,7 +60,7 @@ const Infographic = () => {
       <Card.Text>
       <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -73,7 +73,7 @@ const Infographic = () => {
       <Card.Text>
       <Badge className="bd">Canva</Badge><br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -89,7 +89,7 @@ const Infographic = () => {
       <Card.Text>
       <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -102,7 +102,7 @@ const Infographic = () => {
       <Card.Text>
       <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>

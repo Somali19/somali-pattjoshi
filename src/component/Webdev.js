@@ -66,7 +66,7 @@ const Webdev = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/wee-foodiee"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -83,7 +83,7 @@ const Webdev = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/EduHub-web/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a></small>
     
       </Card.Text>
     </Card.Body>
@@ -101,7 +101,7 @@ const Webdev = () => {
       <Badge className="bd">Bootstrap</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/E-commerce-web/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -117,7 +117,7 @@ const Webdev = () => {
       <Badge className="bd">Materialize CSS</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/farm/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -135,7 +135,7 @@ const Webdev = () => {
       <Badge className="bd">Bootstrap</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/medihub0/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -150,7 +150,7 @@ const Webdev = () => {
       <Badge className="bd">CSS</Badge> &nbsp;
       <Badge className="bd">WebAR</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/Place-to-visit/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -167,7 +167,7 @@ const Webdev = () => {
       <Badge className="bd">CSS</Badge> &nbsp;
       <Badge className="bd">Bootstrap</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/COGENT/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -183,7 +183,7 @@ const Webdev = () => {
       <Badge className="bd">Bootstrap</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/medicare/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>

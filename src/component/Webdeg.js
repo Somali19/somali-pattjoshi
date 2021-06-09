@@ -58,7 +58,7 @@ const Webdeg = () => {
       <Card.Text>
       <Badge className="bd">Figma</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -71,7 +71,7 @@ const Webdeg = () => {
       <Card.Text>
       <Badge className="bd">Figma</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>

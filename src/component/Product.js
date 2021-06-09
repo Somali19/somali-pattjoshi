@@ -59,7 +59,7 @@ const Product = () => {
       <Badge className="bd">Figma</Badge> &nbsp;
       <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
@@ -73,7 +73,7 @@ const Product = () => {
       <Badge className="bd">Inkscape</Badge> &nbsp;
       <Badge className="bd">Canva</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+      <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
