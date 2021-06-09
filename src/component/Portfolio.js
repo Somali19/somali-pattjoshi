@@ -20,11 +20,7 @@ import uides4 from './uideg4.jpg';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const Portfolio = () => {
-<<<<<<< HEAD
-  
-=======
-   
->>>>>>> dbe5ef73b711db4773211af68514d7a3ad661e3a
+
   return (
       <div>
         <h2 className="wk">  WORK </h2>
