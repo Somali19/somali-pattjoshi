@@ -23,7 +23,7 @@ const Contact = () => {
             <br />
             <br />
        <Card className="cdd soc" style={{width: "24rem" }}> 
-       <Card.Body>  Any Message? Drop your message here! <Card.Text>  <br /><br />
+       <Card.Body className="cont3">  Any Message? Drop your message here! <Card.Text>  <br /><br />
             <br /> <Form className="frm">
   <Form.Group controlId="formBasicEmail">
   
@@ -56,7 +56,7 @@ const Contact = () => {
           <br />
           <br />
 
-          <div className="soc"> 
+          <div className="soc cont3"> 
         
           Find me on social media -
           <br />
@@ -82,7 +82,7 @@ const Contact = () => {
 <br />
 <i class="fab fa-gratipay"></i>
 <br />
-Thank you for visiting.
+<div className="cont3">Thank you for visiting. </div>
    
         </Container>
       </div>
