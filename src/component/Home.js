@@ -17,26 +17,14 @@ const Home = ( ) => {
       <div className="back">
         <Container>
         <Row>
-    <Col>
+    <Col sm>
         <h1 className="he"> HELLO! </h1>
        <h3 className="hi"> This is Somali Pattjoshi. </h3>
        <h5 className="sub"> Web Developer and Designer || UI/UX Designer </h5>
        
       <hr className="lines" />
-
-    </Col>
-    
-    <Col>
-    <img src={pic} alt="pic" className="bg" />
-    </Col>
-   
-   
-  </Row>
-<br />
     <br />
-       <Col>
- 
- <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
+     <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
   &nbsp; &nbsp;
   <a href= "mailto: somalipattjoshi19@gmail.com"><i class="far fa-envelope"></i> </a>
   &nbsp; &nbsp;
@@ -46,7 +34,17 @@ const Home = ( ) => {
  &nbsp; &nbsp;
 
   <a href="https://www.instagram.com/_s_o_m_a_l_i/"><i class="fab fa-instagram"></i> </a>
-   </Col> 
+ 
+
+    </Col>
+    
+    <Col sm>
+    <img src={pic} alt="pic" className="bg" />
+    </Col>
+   
+   
+  </Row>
+
    
         </Container>
 
