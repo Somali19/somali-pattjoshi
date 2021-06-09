@@ -63,7 +63,13 @@ margin-top: 40px;
    
  
 }
-
+.cont3 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 16px;
+    color: #706c61;
+    
+    
+}
 @media (max-width:780px) {
     .cnt{
       min-width: 100%;
