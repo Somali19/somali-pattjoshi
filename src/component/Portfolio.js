@@ -7,6 +7,8 @@ import { Col } from "react-bootstrap";
 import { Badge } from "react-bootstrap";
 import { CardDeck} from "react-bootstrap";
 import { Card} from "react-bootstrap";
+import { Modal } from "react-bootstrap";
+import { useState } from "react";
 import './Portfolio.css';
 import fodie from './foodie.png';
 import edu from './edu.png';
@@ -19,6 +21,10 @@ import ill1 from './il1.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const Portfolio = () => {
+   const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
       <div>
         <h2 className="wk">  WORK </h2>
@@ -72,8 +78,13 @@ const Portfolio = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
+      <small className="text-muted"> <Badge className="bd" onClick={handleShow}> &nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     <Modal className="mod" show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title> <img className="img-fluid" src={fodie} /></Modal.Title>
+        </Modal.Header>
+       
+      </Modal>
       </Card.Text>
     </Card.Body>
   
