@@ -7,8 +7,7 @@ import { Col } from "react-bootstrap";
 import { Badge } from "react-bootstrap";
 import { CardDeck} from "react-bootstrap";
 import { Card} from "react-bootstrap";
-import { Modal } from "react-bootstrap";
-import { useState } from "react";
+
 import './Portfolio.css';
 import fodie from './foodie.png';
 import edu from './edu.png';
@@ -78,13 +77,8 @@ const Portfolio = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd" onClick={handleShow}> &nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-     <Modal className="mod" show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title> <img className="img-fluid" src={fodie} /></Modal.Title>
-        </Modal.Header>
-       
-      </Modal>
+      <small className="text-muted"> <Badge className="bd" > &nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     
       </Card.Text>
     </Card.Body>
   
