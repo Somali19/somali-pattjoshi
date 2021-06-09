@@ -12,14 +12,16 @@ import uides3 from './uideg3.jpg';
 import uides4 from './uideg4.jpg';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import {NavLink} from 'react-router-dom';
+
 const Uideg = () => {
+  
   return (
       <div>
          <h2 className="wk">  UI/UX DESIGN</h2>
         <hr className="linees" />
         <Container >
       <Row>
-      <Col>
+      <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
@@ -39,12 +41,7 @@ const Uideg = () => {
   <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
     Product Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/illustration" className="co"> <Badge pill className="bd">
-   Illustration
-  </Badge></NavLink> <br />
-  <NavLink to="/portfolio/branding" className="co"> <Badge pill className="bd">
-   Branding
-  </Badge> </NavLink> <br />
+  
   <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
    Infographic
   </Badge> </NavLink> <br />
@@ -52,18 +49,18 @@ const Uideg = () => {
     Photography
   </Badge> </NavLink>
       </Col>
-      <Col>
+      <Col sm={8}>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides1} />
     <Card.Body>
-      <Card.Title>Recipe App</Card.Title>
+      <Card.Title>Recipe App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge> &nbsp;
       <Badge className="bd">Canva</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
+      <small className="text-muted"> <Badge className="bd" >&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     
       </Card.Text>
     </Card.Body>
   
@@ -71,7 +68,7 @@ const Uideg = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides2} />
     <Card.Body>
-      <Card.Title>Educational App</Card.Title>
+      <Card.Title>Educational App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge> <br /> 
       <hr/>
@@ -86,7 +83,7 @@ const Uideg = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides3} />
     <Card.Body>
-      <Card.Title>Chat App</Card.Title>
+      <Card.Title>Chat App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Adobe XD</Badge> <br /> 
       <hr/>
@@ -99,7 +96,7 @@ const Uideg = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides4} />
     <Card.Body>
-      <Card.Title>Pet App</Card.Title>
+      <Card.Title>Pet App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Adobe XD</Badge> 
       &nbsp;
@@ -120,5 +117,6 @@ const Uideg = () => {
       </div>
   )
 }
+
 
 export default Uideg;

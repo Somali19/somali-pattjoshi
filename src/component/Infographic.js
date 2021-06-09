@@ -19,7 +19,7 @@ const Infographic = () => {
         <hr className="liinee" />
         <Container >
       <Row>
-      <Col>
+      <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
     
@@ -39,12 +39,7 @@ const Infographic = () => {
   <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
     Product Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/illustration" className="co"> <Badge pill className="bd">
-   Illustration
-  </Badge></NavLink> <br />
-  <NavLink to="/portfolio/branding" className="co"> <Badge pill className="bd">
-   Branding
-  </Badge> </NavLink> <br />
+  
   <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
    Infographic
   </Badge> </NavLink> <br />
@@ -53,14 +48,14 @@ const Infographic = () => {
   </Badge> </NavLink>
   
       </Col>
-      <Col>
+      <Col sm={8}>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="hl" src={inf1} />
     <Card.Body>
-      <Card.Title>Foodie</Card.Title>
+      <Card.Title>COVID-19</Card.Title>
       <Card.Text>
-      <Badge className="bd">COVID-19</Badge>  <br /> 
+      <Badge className="bd">Canva</Badge>  <br /> 
       <hr/>
       <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
     

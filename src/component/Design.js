@@ -18,7 +18,7 @@ const Design = () => {
         <hr className="liinee" />
         <Container >
       <Row>
-      <Col>
+      <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
@@ -38,12 +38,7 @@ const Design = () => {
   <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
     Product Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/illustration" className="co"> <Badge pill className="bd">
-   Illustration
-  </Badge></NavLink> <br />
-  <NavLink to="/portfolio/branding" className="co"> <Badge pill className="bd">
-   Branding
-  </Badge> </NavLink> <br />
+  
   <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
    Infographic
   </Badge> </NavLink> <br />
@@ -52,7 +47,7 @@ const Design = () => {
   </Badge> </NavLink>
   
       </Col>
-      <Col>
+      <Col sm={8}>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={des1} />
@@ -101,21 +96,7 @@ const Design = () => {
     </Card.Body>
    
   </Card>
-  <Card className="cards cd">
-    <Card.Img variant="top" className="h" src={des2} />
-    <Card.Body>
-      <Card.Title>AZ Farm</Card.Title>
-      <Card.Text>
-      <Badge className="bd">Inkscape</Badge> &nbsp;
-      <Badge className="bd">Canva</Badge> &nbsp;
-      <Badge className="bd">Illustrator</Badge> <br /> 
-      <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
-      </Card.Text>
-    </Card.Body>
-  
-  </Card>
+ 
   </CardDeck>
   
       </Col>

@@ -40,7 +40,7 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.308);
 }
 .h {
-    height: 160px;
+    height: auto;
     width:auto;
 }
 .hl {
@@ -50,6 +50,7 @@
 .bd {
     background-color:#9461D6;
     color:white;
+    cursor: pointer;
 }
 @media only screen and (max-width: 516px)  {
     .h{
@@ -68,4 +69,19 @@
         width: auto;
         height:auto;
     }
+}
+
+.mod {
+    width:100%;
+    height:auto;
+    
+}
+a:active {
+    color:white;
+}
+a:visited {
+    color:white;
+}
+a:link {
+    color:white;
 }

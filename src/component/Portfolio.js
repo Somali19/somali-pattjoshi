@@ -7,6 +7,7 @@ import { Col } from "react-bootstrap";
 import { Badge } from "react-bootstrap";
 import { CardDeck} from "react-bootstrap";
 import { Card} from "react-bootstrap";
+
 import './Portfolio.css';
 import fodie from './foodie.png';
 import edu from './edu.png';
@@ -15,17 +16,18 @@ import mhub from './medihub.png';
 import uides1 from './uideg1.png';
 import des1 from './3d-des.png';
 import webdeg1 from './webdeg1.png';
-import ill1 from './il1.png';
+import uides4 from './uideg4.jpg';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 
 const Portfolio = () => {
+  
   return (
       <div>
         <h2 className="wk">  WORK </h2>
         <hr className="liinee" />
          <Container >
       <Row>
-      <Col>
+      <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
@@ -45,12 +47,7 @@ const Portfolio = () => {
   <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
     Product Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/illustration" className="co"> <Badge pill className="bd">
-   Illustration
-  </Badge></NavLink> <br />
-  <NavLink to="/portfolio/branding" className="co"> <Badge pill className="bd">
-   Branding
-  </Badge> </NavLink> <br />
+  
   <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
    Infographic
   </Badge> </NavLink> <br />
@@ -59,7 +56,7 @@ const Portfolio = () => {
   </Badge> </NavLink>
   
       </Col>
-      <Col>
+      <Col sm={8}>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={fodie} />
@@ -72,8 +69,8 @@ const Portfolio = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
+      <small className="text-muted"> <Badge className="bd" > &nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
+     
       </Card.Text>
     </Card.Body>
   
@@ -81,7 +78,7 @@ const Portfolio = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={edu} />
     <Card.Body>
-      <Card.Title>Edu Hub</Card.Title>
+      <Card.Title>EduHub</Card.Title>
       <Card.Text>
       <Badge className="bd">HTML</Badge> &nbsp;
       <Badge className="bd">CSS</Badge> &nbsp;
@@ -100,7 +97,7 @@ const Portfolio = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={mhub} />
     <Card.Body>
-      <Card.Title>Medi Hub</Card.Title>
+      <Card.Title>MediHub</Card.Title>
       <Card.Text>
       <Badge className="bd">HTML</Badge> &nbsp;
       <Badge className="bd">CSS</Badge> &nbsp;
@@ -116,7 +113,7 @@ const Portfolio = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides1} />
     <Card.Body>
-      <Card.Title>Recipe App</Card.Title>
+      <Card.Title>Recipe App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge> &nbsp;
       <Badge className="bd">Canva</Badge> <br /> 
@@ -132,7 +129,7 @@ const Portfolio = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={webdeg1} />
     <Card.Body>
-      <Card.Title>Study Hub</Card.Title>
+      <Card.Title>StudyHub</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge>  <br /> 
       <hr/>
@@ -145,7 +142,7 @@ const Portfolio = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides3} />
     <Card.Body>
-      <Card.Title>Chat App</Card.Title>
+      <Card.Title>Chat App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Adobe XD</Badge><br /> 
       <hr/>
@@ -173,9 +170,9 @@ const Portfolio = () => {
     
   </Card>
   <Card className="cards cd">
-    <Card.Img variant="top" className="h" src={ill1} />
+    <Card.Img variant="top" className="h" src={uides4} />
     <Card.Body>
-      <Card.Title>Scenery Illustration</Card.Title>
+      <Card.Title>Pet App Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Incscape</Badge> <br /> 
       <hr/>
@@ -187,8 +184,8 @@ const Portfolio = () => {
   </Card>
   </CardDeck>
       </Col>
-      </Row>
-      </Container>
+  </Row>
+</Container>
       
       </div>
   )

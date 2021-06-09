@@ -8,10 +8,9 @@ import Contact from "./component/Contact";
 import Navv from "./Navv";
 import Webdev from "./component/Webdev";
 import Webdeg from "./component/Webdeg";
-import Branding from "./component/Branding";
 import Photography from "./component/Photography";
 import Infographic from "./component/Infographic";
-import Illustration from "./component/Illustration";
+
 import Product from "./component/Product";
 import Uideg from "./component/Uideg";
 import Design from "./component/Design";
@@ -27,10 +26,8 @@ function App() {
       <Route exact path='/portfolio' component={Portfolio} />
       <Route path='/portfolio/web' component={Webdev} />
       <Route path='/portfolio/webdeg' component={Webdeg} />
-      <Route path='/portfolio/branding' component={Branding} />
       <Route path='/portfolio/photography' component={Photography} />
       <Route path='/portfolio/infographic' component={Infographic} />
-      <Route path='/portfolio/illustration' component={Illustration} />
       <Route path='/portfolio/product' component={Product} />
       <Route path='/portfolio/uideg' component={Uideg} />
       <Route path='/portfolio/design' component={Design} />

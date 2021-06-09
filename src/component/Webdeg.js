@@ -18,7 +18,7 @@ const Webdeg = () => {
         <hr className="liinee" />
         <Container >
       <Row>
-      <Col>
+      <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
@@ -38,12 +38,7 @@ const Webdeg = () => {
   <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
     Product Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/illustration" className="co"> <Badge pill className="bd">
-   Illustration
-  </Badge></NavLink> <br />
-  <NavLink to="/portfolio/branding" className="co"> <Badge pill className="bd">
-   Branding
-  </Badge> </NavLink> <br />
+  
   <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
    Infographic
   </Badge> </NavLink> <br />
@@ -52,12 +47,12 @@ const Webdeg = () => {
   </Badge> </NavLink>
   
       </Col>
-      <Col>
+      <Col sm={8}>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={webdeg1} />
     <Card.Body>
-      <Card.Title>Study Hub</Card.Title>
+      <Card.Title>StudyHub</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge>  <br /> 
       <hr/>
@@ -81,40 +76,7 @@ const Webdeg = () => {
    
   </Card>
   </CardDeck>
-   <CardDeck className="cards">
-  <Card className="cards cd">
-    <Card.Img variant="top" className="h" src="x.jpg" />
-    <Card.Body>
-      <Card.Title>E-commerce Website</Card.Title>
-      <Card.Text>
-      <Badge className="bd">HTML</Badge> &nbsp;
-      <Badge className="bd">CSS</Badge> &nbsp;
-      <Badge className="bd">Bootstrap</Badge> &nbsp;
-      <Badge className="bd">JavaScript</Badge> <br /> 
-      <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
-      </Card.Text>
-    </Card.Body>
-   
-  </Card>
-  <Card className="cards cd">
-    <Card.Img variant="top" className="h" src="x.jpg" />
-    <Card.Body>
-      <Card.Title>AZ Farm</Card.Title>
-      <Card.Text>
-      <Badge className="bd">HTML</Badge> &nbsp;
-      <Badge className="bd">CSS</Badge> &nbsp;
-      <Badge className="bd">Materialize CSS</Badge> &nbsp;
-      <Badge className="bd">JavaScript</Badge> <br /> 
-      <hr/>
-      <small className="text-muted"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </small>
-    
-      </Card.Text>
-    </Card.Body>
   
-  </Card>
-  </CardDeck>
   
       </Col>
       </Row>
