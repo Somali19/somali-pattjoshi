@@ -20,7 +20,7 @@ const Home = ( ) => {
     <Col sm>
         <h1 className="he"> HELLO! </h1>
        <h3 className="hi"> This is Somali Pattjoshi. </h3>
-       <h5 className="sub"> Web Developer and Designer || UI/UX Designer </h5>
+       <h5 className="sub"> Web Developer || Web Designer || UI/UX Designer </h5>
        
       <hr className="lines" />
     <br />
