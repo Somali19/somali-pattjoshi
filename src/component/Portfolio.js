@@ -59,7 +59,7 @@ const Portfolio = () => {
   </Badge> </NavLink>
   
       </Col>
-      <Col sm>
+      <Col md sm>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={fodie} />
