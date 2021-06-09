@@ -54,7 +54,7 @@ const Illustration = () => {
   </Badge> </NavLink>
   
       </Col>
-      <Col>
+      <Col sm>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={ill1} />
