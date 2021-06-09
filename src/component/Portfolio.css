@@ -47,6 +47,11 @@
     height: auto;
     
 }
+
+.mod {
+    width:100%;
+    height:auto;
+}
 .bd {
     background-color:#9461D6;
     color:white;
