@@ -70,6 +70,12 @@ margin-top: 40px;
     
     
 }
+.loc {
+    text-align: right;
+    font-size: 22px;
+    margin-top:20px;
+    text-decoration: underline;
+}
 @media (max-width:780px) {
     .cnt{
       min-width: 100%;
