@@ -8,23 +8,30 @@ import { Card} from "react-bootstrap";
 import './Portfolio.css';
 import webdeg1 from './webdeg1.png';
 import webdeg2 from './webdeg2.png';
-
+import webdeg3 from './webdeg3.png';
+import webdeg4 from './webdeg4.png';
+import webdeg5 from './webdeg5.png';
+import webdeg6 from './webdeg6.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import {NavLink} from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Webdeg = () => {
+  AOS.init({
+    duration : 3000
+  })
+  AOS.refresh();
   return (
-      <div>
-         <h2 className="wk">  WEB DESIGN</h2>
-        <hr className="liinee" />
-        <Container >
+      <div >
+        <h2 className="wk" data-aos="fade-in">  WEB DESIGN </h2>
+        <hr className="liinee" data-aos="fade-in" />
+         <Container data-aos="zoom-in-up">
       <Row>
       <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
-    <NavLink to="/portfolio/design" className="co"> <Badge pill className="bd">
-    3D Design
-  </Badge> </NavLink> <br />
+      
   <NavLink to="/portfolio/webdeg" className="co">
   <Badge pill className="bd">
     Web Design
@@ -35,26 +42,75 @@ const Webdeg = () => {
   <NavLink to="/portfolio/web" className="co"><Badge pill className="bd">
     Web Development 
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
-    Product Design
-  </Badge> </NavLink> <br />
-  
-  <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
-   Infographic
-  </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/photography" className="co"> <Badge pill className="bd">
-    Photography
+  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd">
+    Case Study
   </Badge> </NavLink>
   
       </Col>
 
       <Col sm={8}>
-
+        
+      <CardDeck className="cards">
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={webdeg5} />
+    <Card.Body>
+      <Card.Title>Virtual Medical Scribe Website Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge>  <br /> 
+      <hr/>
+     <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card> 
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={webdeg4}/>
+    <Card.Body>
+      <Card.Title>Bike Rental Website Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> <br /> 
+      <hr/>
+     <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+   
+  </Card>
+  </CardDeck>
+  <CardDeck className="cards">
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={webdeg3} />
+    <Card.Body>
+      <Card.Title>Hospital Finder Website Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge>  <br /> 
+      <hr/>
+     <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card> 
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={webdeg6}/>
+    <Card.Body>
+      <Card.Title>Bank Website Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> <br /> 
+      <hr/>
+     <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+   
+  </Card>
+  </CardDeck>
       <CardDeck className="cards">
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={webdeg1} />
     <Card.Body>
-      <Card.Title>StudyHub</Card.Title>
+      <Card.Title>Educational Website Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge>  <br /> 
       <hr/>
@@ -67,7 +123,7 @@ const Webdeg = () => {
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={webdeg2}/>
     <Card.Body>
-      <Card.Title>Coming Soon Page</Card.Title>
+      <Card.Title>Coming Soon Page Design</Card.Title>
       <Card.Text>
       <Badge className="bd">Figma</Badge> <br /> 
       <hr/>

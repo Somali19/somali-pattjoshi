@@ -16,20 +16,24 @@ import cogent from './cogent.png';
 import medicare from './medicare.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import {NavLink} from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Webdev = () => {
+  AOS.init({
+    duration : 3000
+  })
+  AOS.refresh();
   return (
-      <div>
-         <h2 className="wk">  WEB DEVELOPMENT</h2>
-        <hr className="linees" />
-        <Container >
+      <div >
+        <h2 className="wk" data-aos="fade-in">  WEB DEVELOPMENT </h2>
+        <hr className="liinee" data-aos="fade-in" />
+         <Container data-aos="zoom-in-up">
       <Row>
       <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
-    <NavLink to="/portfolio/design" className="co"> <Badge pill className="bd">
-    3D Design
-  </Badge> </NavLink> <br />
+     
   <NavLink to="/portfolio/webdeg" className="co">
   <Badge pill className="bd">
     Web Design
@@ -40,15 +44,8 @@ const Webdev = () => {
   <NavLink to="/portfolio/web" className="co"><Badge pill className="bd">
     Web Development 
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
-    Product Design
-  </Badge> </NavLink> <br />
-  
-  <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
-   Infographic
-  </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/photography" className="co"> <Badge pill className="bd">
-    Photography
+  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd">
+    Case Study
   </Badge> </NavLink>
       </Col>
 

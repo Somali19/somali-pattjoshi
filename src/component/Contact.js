@@ -6,12 +6,18 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import './Contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Contact = () => {
+  AOS.init({
+    duration : 3000
+  })
+  AOS.refresh();
   return (
       <div>
-         <h2 className="wk">  CONTACT</h2>
-        <hr className="liinee" />
-        <Container>
+         <h2 className="wk" data-aos="fade-in">  CONTACT</h2>
+        <hr className="liinee" data-aos="fade-in" />
+        <Container data-aos="zoom-in-up">
           <Row >
             <Col className="cnt">
             

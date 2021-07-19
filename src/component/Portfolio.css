@@ -44,8 +44,8 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.308);
 }
 .h {
-    height: auto;
-    width:100%;
+    max-height: 350px;
+    width:auto;
 
 }
 .hl {
@@ -63,24 +63,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 516px)  {
-    .h{
-        width: auto;
-        height: auto;
-    }
-}
-@media only screen and (max-width: 950px)  {
-    .h{
-        width: auto;
-     height: auto;
-    }
-}
-@media only screen and (max-width: 1120px)  {
-    .h {
-        width: auto;
-        height:auto;
-    }
-}
+
 
 .mod {
     width:100%;

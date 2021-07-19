@@ -10,24 +10,33 @@ import uides1 from './uideg1.png';
 import uides2 from './uideg2.png';
 import uides3 from './uideg3.jpg';
 import uides4 from './uideg4.jpg';
+import uides5 from './uideg4.png';
+import uides6 from './uideg5.png';
+import uides7 from './uideg6.jpg';
+import uides8 from './uideg7.jpg';
+import uides9 from './uideg8.png';
+import uides10 from './uideg9.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import {NavLink} from 'react-router-dom';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Uideg = () => {
-  
+  AOS.init({
+    duration : 3000
+  })
+  AOS.refresh();
   return (
-      <div>
-         <h2 className="wk">  UI/UX DESIGN</h2>
-        <hr className="linees" />
-        <Container >
+      <div >
+        <h2 className="wk" data-aos="fade-in">  UI/UX DESIGN </h2>
+        <hr className="liinee" data-aos="fade-in" />
+         <Container data-aos="zoom-in-up">
       <Row>
       <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
-    <NavLink to="/portfolio/design" className="co"> <Badge pill className="bd">
-    3D Design
-  </Badge> </NavLink> <br />
+   
   <NavLink to="/portfolio/webdeg" className="co">
   <Badge pill className="bd">
     Web Design
@@ -38,15 +47,9 @@ const Uideg = () => {
   <NavLink to="/portfolio/web" className="co"><Badge pill className="bd">
     Web Development 
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
-    Product Design
-  </Badge> </NavLink> <br />
-  
-  <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
-   Infographic
-  </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/photography" className="co"> <Badge pill className="bd">
-    Photography
+ 
+  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd">
+    Case Study
   </Badge> </NavLink>
       </Col>
 
@@ -110,7 +113,95 @@ const Uideg = () => {
   
   </Card>
   </CardDeck>
+  <CardDeck className="cards">
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides5} />
+    <Card.Body>
+      <Card.Title>ManageMe App Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> 
+      &nbsp;
+      <Badge className="bd">Canva</Badge><br /> 
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
   
+  </Card>
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides6} />
+    <Card.Body>
+      <Card.Title>Music App Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> 
+     
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card>
+  </CardDeck>
+  <CardDeck className="cards">
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides7} />
+    <Card.Body>
+      <Card.Title>Food App Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> 
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card>
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides8} />
+    <Card.Body>
+      <Card.Title>Login/Signup Page Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> 
+     
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card>
+  </CardDeck>
+  <CardDeck className="cards">
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides9} />
+    <Card.Body>
+      <Card.Title>Netflix App Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Figma</Badge> 
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card>
+  <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides10} />
+    <Card.Body>
+      <Card.Title>Food Delivery App Design</Card.Title>
+      <Card.Text>
+      <Badge className="bd">Adoobe XD</Badge> 
+     
+      <hr/>
+      <small className="text-muted"> <br /></small>
+    
+      </Card.Text>
+    </Card.Body>
+  
+  </Card>
+  </CardDeck>
       </Col>
       </Row>
       </Container>

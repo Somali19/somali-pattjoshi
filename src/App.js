@@ -8,12 +8,9 @@ import Contact from "./component/Contact";
 import Navv from "./Navv";
 import Webdev from "./component/Webdev";
 import Webdeg from "./component/Webdeg";
-import Photography from "./component/Photography";
-import Infographic from "./component/Infographic";
-
-import Product from "./component/Product";
 import Uideg from "./component/Uideg";
-import Design from "./component/Design";
+import Casestudy from "./component/Casestudy";
+
 
 function App() {
  
@@ -26,12 +23,9 @@ function App() {
       <Route exact path='/portfolio' component={Portfolio} />
       <Route path='/portfolio/web' component={Webdev} />
       <Route path='/portfolio/webdeg' component={Webdeg} />
-      <Route path='/portfolio/photography' component={Photography} />
-      <Route path='/portfolio/infographic' component={Infographic} />
-      <Route path='/portfolio/product' component={Product} />
       <Route path='/portfolio/uideg' component={Uideg} />
-      <Route path='/portfolio/design' component={Design} />
       <Route path='/contact' component={Contact} />
+      <Route path='/portfolio/casestudy' component={Casestudy} />
     </Switch>
     </>
   );

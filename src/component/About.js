@@ -5,29 +5,34 @@ import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Badge } from "react-bootstrap";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './About.css';
 import pic from './somuu.png';
 const About = () => {
+  AOS.init({
+    duration : 3000
+  })
+  AOS.refresh();
   return (
       <div>
-      <h2 className="abt"> ABOUT </h2>
-      <hr className="liinee" />
-      <Container className="abt">
-      <Row>
+      <h2 className="abt" data-aos="fade-in"> ABOUT </h2>
+      <hr className="liinee" data-aos="fade-in" />
+      <Container className="abt" >
+      <Row >
       <Col>
-       <img src={pic} alt="pic" className="bgg" />
+       <img src={pic} alt="pic" className="bgg" data-aos="zoom-in-up" />
       </Col>
 
-<Col>
+<Col data-aos="zoom-in-down">
 <Row>
 <Col className="cont">
   <ul> <li> I am a 3rd year Undergraduate students at GIET University, Gunupur. </li> <br /> <li> My Domain is Computer Science and I am intrested in the field of Web Development, Web Design and UI/UX Design. </li> <br /> <li> I have good knowledge of Front-end techniques and modern Web and UI design trends. </li> <br /> <li> I loves building user-friendly websites and I am also an open-source enthusiast.  </li> </ul>
   
 </Col>
 </Row>
-<Row>
-<Col >
+<Row data-aos="fade-in">
+<Col>
 <div className="cont1"> SKILLS </div><br />
 <Badge className="bd">HTML</Badge>  <Badge className="bd"> CSS </Badge>  <Badge className="bd"> SCSS </Badge> <Badge className="bd">  Responsive Web Design </Badge>   <Badge className="bd"> Bootstrap </Badge>  <Badge className="bd">  Materialize CSS </Badge> <Badge className="bd">  Tailwind CSS  </Badge>  <Badge className="bd"> JavaScript </Badge> <Badge className="bd">  JQuery </Badge> <Badge className="bd">  PHP </Badge> <Badge className="bd">  React JS </Badge>  <Badge className="bd">  C </Badge>  <Badge className="bd">   C++  </Badge>  <Badge className="bd">  Java </Badge>  <Badge className="bd">   Python  </Badge> 
 
@@ -48,7 +53,7 @@ Campus SuperHero at Coding Blocks </div>
 </ul>
 </Col>
 </Row>
-<Row>
+<Row data-aos="fade-in">
 <Col>
 
 <div className="cont1"> 

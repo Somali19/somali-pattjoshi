@@ -14,26 +14,29 @@ import edu from './edu.png';
 import uides3 from './uideg3.jpg';
 import mhub from './medihub.png';
 import uides1 from './uideg1.png';
-import des1 from './3d-des.png';
 import webdeg1 from './webdeg1.png';
 import uides4 from './uideg4.jpg';
+
+import uides6 from './uideg5.png';
 import VisibilityIcon from '@material-ui/icons/Visibility';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Portfolio = () => {
-
+  AOS.init({
+    duration : 3000
+  })
+  AOS.refresh();
   return (
-      <div>
-        <h2 className="wk">  WORK </h2>
-        <hr className="liinee" />
-         <Container >
+      <div >
+        <h2 className="wk" data-aos="fade-in">  WORK </h2>
+        <hr className="liinee" data-aos="fade-in" />
+         <Container data-aos="zoom-in-up">
       <Row>
       <Col sm={4}>
     <h4>  All Work </h4>
     <hr className="li" />
    
-    <NavLink to="/portfolio/design" className="co"> <Badge pill className="bd">
-    3D Design
-  </Badge> </NavLink> <br />
+ 
   <NavLink to="/portfolio/webdeg" className="co">
   <Badge pill className="bd">
     Web Design
@@ -43,18 +46,11 @@ const Portfolio = () => {
   </Badge> </NavLink> <br />
   <NavLink to="/portfolio/web" className="co"><Badge pill className="bd">
     Web Development 
-  </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/product" className="co"> <Badge pill className="bd">
-    Product Design
-  </Badge> </NavLink> <br />
-  
-  <NavLink to="/portfolio/infographic" className="co"><Badge pill className="bd">
-   Infographic
-  </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/photography" className="co"> <Badge pill className="bd">
-    Photography
+  </Badge> </NavLink> 
+  <br />
+  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd">
+    Case Study
   </Badge> </NavLink>
-  
       </Col>
       <Col sm={8}>
 
@@ -155,20 +151,19 @@ const Portfolio = () => {
   </Card>
   </CardDeck>
    <CardDeck className="cards">
-  <Card className="cards cd">
-    <Card.Img variant="top" className="h" src={des1} />
+   <Card className="cards cd">
+    <Card.Img variant="top" className="h" src={uides6} />
     <Card.Body>
-      <Card.Title>Design</Card.Title>
+      <Card.Title>Music App Design</Card.Title>
       <Card.Text>
-      <Badge className="bd">Figma</Badge> &nbsp;
-      <Badge className="bd">Inkscape</Badge> &nbsp;
-      <Badge className="bd">Canva</Badge>  <br /> 
+      <Badge className="bd">Figma</Badge> 
+     
       <hr/>
       <small className="text-muted"> <br /></small>
     
       </Card.Text>
     </Card.Body>
-    
+  
   </Card>
   <Card className="cards cd">
     <Card.Img variant="top" className="h" src={uides4} />
