@@ -44,7 +44,7 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(84, 46, 113, 0.308);
 }
 .h {
-    max-height: 350px;
+    max-height: 300px;
     width:auto;
 
 }
@@ -63,13 +63,6 @@
     cursor: pointer;
 }
 
-
-
-.mod {
-    width:100%;
-    height:auto;
-    
-}
 a:active {
     color:white;
 }
