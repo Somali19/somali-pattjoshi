@@ -23,7 +23,7 @@ const Contact = () => {
         <br />
             <br />
             <Row>
-              <Col>
+              <Col sm>
               <br />
             <br />
             <br />
@@ -50,7 +50,7 @@ const Contact = () => {
      </Card.Body>
   </Card> 
   </Col>
-  <Col>
+  <Col sm>
   <div className="loc1 cont3" > Location -  </div>  
 
            
