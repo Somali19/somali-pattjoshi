@@ -35,7 +35,7 @@ const About = () => {
       </Col>
 
 <Col data-aos="zoom-in-down">
-<Row>
+<Row data-aos="fade-in">
 <Col className="cont">
   <ul> <li> I am a 4th year Undergraduate students at GIET University, Gunupur. </li> <br /> <li> My Domain is Computer Science and I am intrested in the field of Web Development, Web Design and UI/UX Design. </li> <br /> <li> I have good knowledge of Front-end techniques and modern Web and UI design trends. </li> <br /> <li> I loves building user-friendly websites and I am also an open-source enthusiast.  </li> </ul>
   
@@ -45,12 +45,14 @@ const About = () => {
 </Col>
       </Row>
 
-      <Row data-aos="fade-in">
-<Col>
-<div className="cont1"> SKILLS </div><br />
-<Row>
-  <Col>
-<div label="Stroke width " className="txt hvr-float">
+     <Row data-aos="fade-in">
+       <Col sm>
+       <div className="cont1"> 
+SKILLS </div> <br />
+       <Row>
+         <Row>
+       <Col>
+<div label="Stroke width " className="txt">
       <CircularProgressbar 
         value={90}
         text={`90%`}
@@ -65,7 +67,7 @@ const About = () => {
     </Col>
   
     <Col>
-<div label="Stroke width " className="txt hvr-float">
+<div label="Stroke width " className="txt">
       <CircularProgressbar
         value={80}
         text={`80%`} 
@@ -78,7 +80,7 @@ const About = () => {
     </div>
     </Col>
     <Col>
-<div label="Stroke width " className="txt hvr-float">
+<div label="Stroke width " className="txt">
       <CircularProgressbar
         value={60}
         text={`60%`} 
@@ -88,137 +90,6 @@ const About = () => {
         })}
       />
       SCSS
-    </div>
-    </Col>
-  
-
-    </Row>
-<br />
-<Row>
-  <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar 
-        value={50}
-        text={`50`}
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-        
-      />
-      JavaScript
-    </div>
-    </Col>
-    <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar 
-        value={80}
-        text={`80%`}
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-        
-      />
-      Responsive Design
-    </div>
-    </Col>
-    <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar
-        value={75}
-        text={`75%`} 
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-      />
-     Tailwind CSS
-    </div>
-    </Col>
- 
-
-    </Row>
-<br />
-
-<br />
-</Col>
-
-<Col>
-<br />
-<br /> <br />
-<Row>
-  <Col>
-  
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar 
-        value={80}
-        text={`80%`}
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-        
-      />
-      C
-    </div>
-    </Col>
-    <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar 
-        value={75}
-        text={`75%`}
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-        
-      />
-      C++
-    </div>
-    </Col>
-    <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar
-        value={60}
-        text={`60%`} 
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-      />
-      Java
-    </div>
-    </Col>
- 
-
-    </Row>
-    <br />
-    <Row>
-    <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar
-        value={65}
-        text={`65%`}
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-      />
-      PHP
-    </div>
-    </Col>
-    <Col>
-<div label="Stroke width" className="txt hvr-float">
-      <CircularProgressbar
-        value={70}
-        text={`70%`}
-        strokeWidth={5} styles={buildStyles({
-          textColor: "#9461D6",
-          pathColor: "#9461D6"
-        })}
-      />
-      Materialize CSS
     </div>
     </Col>
     <Col>
@@ -235,31 +106,151 @@ const About = () => {
     </div>
     </Col>
     </Row>
-</Col>
-<Col>
-<div className="cont1"> 
+    <Row>
+    <Col>
+<div label="Stroke width" className="txt">
+      <CircularProgressbar 
+        value={50}
+        text={`50`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      JavaScript
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt">
+      <CircularProgressbar 
+        value={80}
+        text={`80%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      Responsive Design
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt">
+      <CircularProgressbar
+        value={75}
+        text={`75%`} 
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+     Tailwind CSS
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width " className="txt ">
+      <CircularProgressbar
+        value={70}
+        text={`70%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      Materialize CSS
+    </div>
+    </Col>
+    </Row>
+    <Row>
+    <Col>
+  
+  <div label="Stroke width" className="txt hvr-float">
+        <CircularProgressbar 
+          value={80}
+          text={`80%`}
+          strokeWidth={5} styles={buildStyles({
+            textColor: "#9461D6",
+            pathColor: "#9461D6"
+          })}
+          
+        />
+        C
+      </div>
+      </Col>
+      <Col>
+  <div label="Stroke width" className="txt hvr-float">
+        <CircularProgressbar 
+          value={75}
+          text={`75%`}
+          strokeWidth={5} styles={buildStyles({
+            textColor: "#9461D6",
+            pathColor: "#9461D6"
+          })}
+          
+        />
+        C++
+      </div>
+      </Col>
+      <Col>
+  <div label="Stroke width" className="txt hvr-float">
+        <CircularProgressbar
+          value={60}
+          text={`60%`} 
+          strokeWidth={5} styles={buildStyles({
+            textColor: "#9461D6",
+            pathColor: "#9461D6"
+          })}
+        />
+        Java
+      </div>
+      </Col>
+      <Col>
+<div label="Stroke width " className="txt ">
+      <CircularProgressbar
+        value={60}
+        text={`60%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      PHP
+    </div>
+    </Col>
+      </Row>
+   </Row>
+    </Col>
+<br />  <br />
+<br />  <br />
+       <Col sm>
+       <div className="cont1"> 
 TOOLS </div> <br />
-<ProgressBar variant={"prog"} animated now={90} label={`Github`}  /> <br />
-<ProgressBar variant={"prog"} animated now={100} label={`Sublime text`}  /> <br />
-<ProgressBar variant={"prog"} animated now={90} label={`Visual Studio Code`}  /> <br />
-<ProgressBar variant={"prog"} animated now={80} label={`Figma`}  /> <br />
-<ProgressBar variant={"prog"} animated now={80} label={`Jupyter Notebook`}  /> <br />
+       
 
- <br />
-<br />
-</Col>
+       <Row>
 <Col>
-<br />
-<br />
-<br />
-<ProgressBar variant={"prog"} animated now={80} label={`Google Colab`}  /> <br />
-<ProgressBar variant={"prog"} animated now={80} label={`Adobe XD`}  /> <br />
-<ProgressBar variant={"prog"} animated now={60} label={`Adobe Photoshop`}  /> <br />
-
-<ProgressBar variant={"prog"} animated now={65} label={`Adobe Illustrator`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={90} label={`Github`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={100} label={`Sublime text`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={90} label={`Visual Studio Code`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={80} label={`Figma`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={80} label={`Jupyter Notebook`}  /> <br />
 </Col>
+         </Row>
+         <Row>
+           <Col>
+           <ProgressBar className="txt" variant={"prog"} animated now={90} label={`Google Colab`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={80} label={`Adobe XD`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={60} label={`Adobe Photoshop`}  /> <br />
+<ProgressBar className="txt" variant={"prog"} animated now={60} label={`Adobe Illustrator`}  />
 
-        </Row>
+           </Col>
+         
+         </Row>
+       </Col>
+     </Row>
+
+     
         <Row data-aos="fade-in">
 <Col>
 <div className="cont1"> 
