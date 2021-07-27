@@ -8,7 +8,7 @@ import { Card} from "react-bootstrap";
 import './Portfolio.css';
 import fodie from './foodie.png';
 import edu from './edu.png';
-import ecom from './ecom.png';
+import cook from './cookbook.png';
 import farm from './farm.png';
 import mhub from './medihub.png';
 import place from './place.png';
@@ -35,16 +35,16 @@ const Webdev = () => {
    
      
   <NavLink to="/portfolio/webdeg" className="co">
-  <Badge pill className="bd">
+  <Badge pill className="bd hvr-float-shadow">
     Web Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/uideg" className="co">  <Badge pill className="bd">
+  <NavLink to="/portfolio/uideg" className="co">  <Badge pill className="bd hvr-float-shadow">
     UI/UX Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/web" className="co"><Badge pill className="bd">
+  <NavLink to="/portfolio/web" className="co"><Badge pill className="bd hvr-float-shadow">
     Web Development 
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd">
+  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd hvr-float-shadow">
     Case Study
   </Badge> </NavLink>
       </Col>
@@ -63,7 +63,7 @@ const Webdev = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"><a href="https://somali19.github.io/wee-foodiee"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/wee-foodiee"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -80,7 +80,7 @@ const Webdev = () => {
       <Badge className="bd">jQuery</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <a href="https://somali19.github.io/EduHub-web/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a></small>
+      <small className="text-muted"> <a href="https://somali19.github.io/EduHub-web/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a></small>
     
       </Card.Text>
     </Card.Body>
@@ -89,16 +89,15 @@ const Webdev = () => {
   </CardDeck>
    <CardDeck className="cards">
   <Card className="cards cd">
-    <Card.Img variant="top" className="h" src={ecom} />
+    <Card.Img variant="top" className="h" src={cook} />
     <Card.Body>
-      <Card.Title>E-commerce Website</Card.Title>
+      <Card.Title>Cookbook</Card.Title>
       <Card.Text>
       <Badge className="bd">HTML</Badge> &nbsp;
-      <Badge className="bd">CSS</Badge> &nbsp;
-      <Badge className="bd">Bootstrap</Badge> &nbsp;
+      <Badge className="bd">Tailwind CSS</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"><a href="https://somali19.github.io/E-commerce-web/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/cookbook/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -114,7 +113,7 @@ const Webdev = () => {
       <Badge className="bd">Materialize CSS</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"><a href="https://somali19.github.io/farm/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"><a href="https://somali19.github.io/farm/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -132,7 +131,7 @@ const Webdev = () => {
       <Badge className="bd">Bootstrap</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <a href="https://somali19.github.io/medihub0/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/medihub0/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -147,7 +146,7 @@ const Webdev = () => {
       <Badge className="bd">CSS</Badge> &nbsp;
       <Badge className="bd">WebAR</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <a href="https://somali19.github.io/Place-to-visit/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/Place-to-visit/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -164,7 +163,7 @@ const Webdev = () => {
       <Badge className="bd">CSS</Badge> &nbsp;
       <Badge className="bd">Bootstrap</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <a href="https://somali19.github.io/COGENT/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/COGENT/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>
@@ -180,7 +179,7 @@ const Webdev = () => {
       <Badge className="bd">Bootstrap</Badge> &nbsp;
       <Badge className="bd">JavaScript</Badge> <br /> 
       <hr/>
-      <small className="text-muted"> <a href="https://somali19.github.io/medicare/"> <Badge className="bd">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
+      <small className="text-muted"> <a href="https://somali19.github.io/medicare/"> <Badge className="bd hvr-round-corners">&nbsp; View &nbsp;<VisibilityIcon /> &nbsp; </Badge> </a> </small>
     
       </Card.Text>
     </Card.Body>

@@ -1,5 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ProgressBar from 'react-bootstrap/ProgressBar'
+
+// Import react-circular-progressbar module and styles
+import {
+  CircularProgressbar, buildStyles
+} from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+
+
 
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
@@ -14,6 +23,7 @@ const About = () => {
     duration : 3000
   })
   AOS.refresh();
+  const percentage = 20;
   return (
       <div>
       <h2 className="abt" data-aos="fade-in"> ABOUT </h2>
@@ -27,33 +37,239 @@ const About = () => {
 <Col data-aos="zoom-in-down">
 <Row>
 <Col className="cont">
-  <ul> <li> I am a 3rd year Undergraduate students at GIET University, Gunupur. </li> <br /> <li> My Domain is Computer Science and I am intrested in the field of Web Development, Web Design and UI/UX Design. </li> <br /> <li> I have good knowledge of Front-end techniques and modern Web and UI design trends. </li> <br /> <li> I loves building user-friendly websites and I am also an open-source enthusiast.  </li> </ul>
+  <ul> <li> I am a 4th year Undergraduate students at GIET University, Gunupur. </li> <br /> <li> My Domain is Computer Science and I am intrested in the field of Web Development, Web Design and UI/UX Design. </li> <br /> <li> I have good knowledge of Front-end techniques and modern Web and UI design trends. </li> <br /> <li> I loves building user-friendly websites and I am also an open-source enthusiast.  </li> </ul>
   
 </Col>
 </Row>
-<Row data-aos="fade-in">
-<Col>
-<div className="cont1"> SKILLS </div><br />
-<Badge className="bd">HTML</Badge>  <Badge className="bd"> CSS </Badge>  <Badge className="bd"> SCSS </Badge> <Badge className="bd">  Responsive Web Design </Badge>   <Badge className="bd"> Bootstrap </Badge>  <Badge className="bd">  Materialize CSS </Badge> <Badge className="bd">  Tailwind CSS  </Badge>  <Badge className="bd"> JavaScript </Badge> <Badge className="bd">  JQuery </Badge> <Badge className="bd">  PHP </Badge> <Badge className="bd">  React JS </Badge>  <Badge className="bd">  C </Badge>  <Badge className="bd">   C++  </Badge>  <Badge className="bd">  Java </Badge>  <Badge className="bd">   Python  </Badge> 
 
 </Col>
+      </Row>
+
+      <Row data-aos="fade-in">
+<Col>
+<div className="cont1"> SKILLS </div><br />
+<Row>
+  <Col>
+<div label="Stroke width " className="txt hvr-float">
+      <CircularProgressbar 
+        value={90}
+        text={`90%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      HTML
+    </div>
+    </Col>
+  
+    <Col>
+<div label="Stroke width " className="txt hvr-float">
+      <CircularProgressbar
+        value={80}
+        text={`80%`} 
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      CSS
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width " className="txt hvr-float">
+      <CircularProgressbar
+        value={60}
+        text={`60%`} 
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      SCSS
+    </div>
+    </Col>
+  
+
+    </Row>
+<br />
+<Row>
+  <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar 
+        value={50}
+        text={`50`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      JavaScript
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar 
+        value={80}
+        text={`80%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      Responsive Design
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar
+        value={75}
+        text={`75%`} 
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+     Tailwind CSS
+    </div>
+    </Col>
+ 
+
+    </Row>
+<br />
+
+<br />
+</Col>
+
+<Col>
+<br />
+<br /> <br />
+<Row>
+  <Col>
+  
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar 
+        value={80}
+        text={`80%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      C
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar 
+        value={75}
+        text={`75%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+        
+      />
+      C++
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar
+        value={60}
+        text={`60%`} 
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      Java
+    </div>
+    </Col>
+ 
+
+    </Row>
+    <br />
+    <Row>
+    <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar
+        value={65}
+        text={`65%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      PHP
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width" className="txt hvr-float">
+      <CircularProgressbar
+        value={70}
+        text={`70%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      Materialize CSS
+    </div>
+    </Col>
+    <Col>
+<div label="Stroke width " className="txt ">
+      <CircularProgressbar
+        value={80}
+        text={`80%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      Bootstrap
+    </div>
+    </Col>
+    </Row>
+</Col>
+<Col>
+<div className="cont1"> 
+TOOLS </div> <br />
+<ProgressBar variant={"prog"} animated now={90} label={`Github`}  /> <br />
+<ProgressBar variant={"prog"} animated now={100} label={`Sublime text`}  /> <br />
+<ProgressBar variant={"prog"} animated now={90} label={`Visual Studio Code`}  /> <br />
+<ProgressBar variant={"prog"} animated now={80} label={`Figma`}  /> <br />
+<ProgressBar variant={"prog"} animated now={80} label={`Jupyter Notebook`}  /> <br />
+
+ <br />
+<br />
+</Col>
+<Col>
+<br />
+<br />
+<br />
+<ProgressBar variant={"prog"} animated now={80} label={`Google Colab`}  /> <br />
+<ProgressBar variant={"prog"} animated now={80} label={`Adobe XD`}  /> <br />
+<ProgressBar variant={"prog"} animated now={60} label={`Adobe Photoshop`}  /> <br />
+
+<ProgressBar variant={"prog"} animated now={65} label={`Adobe Illustrator`}  /> <br />
+</Col>
+
+        </Row>
+        <Row data-aos="fade-in">
 <Col>
 <div className="cont1"> 
 EXPERIENCE </div> <br />
 <ul>
 <li><div className="cont2 m">Web Developer Intern at The Sparks Foundation </div>  </li>
 <li> <div className="cont2 m">Web Design Intern at Internship Studio</div>  </li>
-<li>
-<div className="cont2 m">
-Graphic Designer at Girlscript Gunupur</div>  </li>
-<li>
-<div className="cont2">
-Campus SuperHero at Coding Blocks </div>
-</li>
+<li> <div className="cont2 m">Representative of Google Crowdsource</div>  </li>
 </ul>
 </Col>
-</Row>
-<Row data-aos="fade-in">
 <Col>
 
 <div className="cont1"> 
@@ -68,6 +284,7 @@ Full-Stack Web Development with React from Coursera</div> </li>
  UI / UX Design from Coursera
 </div>
 </li>
+
 </ul>
 <br />
 <br />
@@ -76,18 +293,8 @@ Full-Stack Web Development with React from Coursera</div> </li>
 
 </Col>
 
-<Col>
-<div className="cont1"> 
-TOOLS </div> <br />
-<Badge className="bd">GitHub </Badge> <Badge className="bd">   Sublime text </Badge> <Badge className="bd">     Visual Studio Code  </Badge> <Badge className="bd">    Figma </Badge> <Badge className="bd">     Jupyter Notebook  </Badge> <Badge className="bd">    Google Colab </Badge> <Badge className="bd">     Adobe XD  </Badge> <Badge className="bd">    Adobe Photoshop </Badge> <Badge className="bd">     Adobe Illustrator</Badge>
- <br />
-<br />
-</Col>
+
 </Row>
-
-
-      </Col>
-      </Row>
 </Container>
      </div>
   )

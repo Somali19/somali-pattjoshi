@@ -30,16 +30,16 @@ const Casestudy = () => {
    
       
   <NavLink to="/portfolio/webdeg" className="co">
-  <Badge pill className="bd">
+  <Badge pill className="bd hvr-float-shadow">
     Web Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/uideg" className="co">  <Badge pill className="bd">
+  <NavLink to="/portfolio/uideg" className="co">  <Badge pill className="bd hvr-float-shadow">
     UI/UX Design
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/web" className="co"><Badge pill className="bd">
+  <NavLink to="/portfolio/web" className="co"><Badge pill className="bd hvr-float-shadow">
     Web Development 
   </Badge> </NavLink> <br />
-  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd">
+  <NavLink to="/portfolio/casestudy" className="co">  <Badge pill className="bd hvr-float-shadow">
     Case Study
   </Badge> </NavLink>
       </Col>

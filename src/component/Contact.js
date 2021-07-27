@@ -22,42 +22,47 @@ const Contact = () => {
         <Container data-aos="zoom-in-up">
         <br />
             <br />
+            <Row>
+              <Col>
+              <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
        <Card className="cdd soc"> 
-       <Card.Body className="cont3">   Find me on social media -
+       <Card.Body className="cont3">   Find me here -
           <br />
           <hr className="liinee" />
           <br />
           <br />
-            <Row>
-            <Col>
-            <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196">  <i class="fab fa-linkedin-in"></i></a> 
+            
+            <a href="https://www.linkedin.com/in/somali-pattjoshi-03748b196" className="hvr-bounce-in">  <i class="fab fa-linkedin-in"></i></a> 
     &nbsp; &nbsp;
-      <a href= "mailto: somalipattjoshi19@gmail.com"><i class="far fa-envelope"></i> </a>
+      <a href= "mailto: somalipattjoshi19@gmail.com" className="hvr-bounce-in"><i class="far fa-envelope"></i> </a>
   &nbsp; &nbsp;
-      <a href="https://github.com/Somali19"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/Somali19" className="hvr-bounce-in"><i class="fab fa-github"></i></a>
   &nbsp; &nbsp;
-  <a href="https://www.behance.net/somusomali"><i class="fab fa-behance"></i>  </a>
+  <a href="https://www.behance.net/somusomali" className="hvr-bounce-in"><i class="fab fa-behance"></i>  </a>
   &nbsp; &nbsp;
-  <a href="https://dribbble.com/__Somali__"><i class="fab fa-dribbble"></i> </a>
+  <a href="https://dribbble.com/__Somali__" className="hvr-bounce-in"><i class="fab fa-dribbble"></i> </a>
   
-    </Col>
-        <Col>
-          <img src={pic} alt="pic" className="bg" data-aos="zoom-in-up" />
-    
-          </Col>
-           
-        </Row>
      </Card.Body>
   </Card> 
-    <div className="loc cont3" > Location -  </div>  
+  </Col>
+  <Col>
+  <div className="loc1 cont3" > Location -  </div>  
 
            
          
 
     <div className="mapp" style= {{width: "100%"}}><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=junagarh%20,%20kalahandi+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
     <br />
+
+  </Col>
+  </Row>
   <br />
-  <i class="fab fa-gratipay"></i>
+  <div className="hvr-bounce-in"><i class="fab fa-gratipay" ></i> </div>
     <br />
   <div className="cont3">Thank you for visiting. 
   <br /> <br />
