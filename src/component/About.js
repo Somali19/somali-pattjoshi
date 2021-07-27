@@ -46,7 +46,7 @@ const About = () => {
       </Row>
 
      <Row data-aos="fade-in">
-       <Col sm>
+       <Col sm md>
        <div className="cont1"> 
 SKILLS </div> <br />
        <Row>
@@ -219,30 +219,90 @@ SKILLS </div> <br />
     </div>
     </Col>
       </Row>
+
+      <Row>
+    <Col>
+  
+  <div label="Stroke width" className="txt hvr-float">
+        <CircularProgressbar 
+          value={60}
+          text={`60%`}
+          strokeWidth={5} styles={buildStyles({
+            textColor: "#9461D6",
+            pathColor: "#9461D6"
+          })}
+          
+        />
+     jQuery
+      </div>
+      </Col>
+      <Col>
+  <div label="Stroke width" className="txt hvr-float">
+        <CircularProgressbar 
+          value={60}
+          text={`60%`}
+          strokeWidth={5} styles={buildStyles({
+            textColor: "#9461D6",
+            pathColor: "#9461D6"
+          })}
+          
+        />
+        SQL
+      </div>
+      </Col>
+      <Col>
+  <div label="Stroke width" className="txt hvr-float">
+        <CircularProgressbar
+          value={80}
+          text={`80%`} 
+          strokeWidth={5} styles={buildStyles({
+            textColor: "#9461D6",
+            pathColor: "#9461D6"
+          })}
+        />
+        Responsive Design
+      </div>
+      </Col>
+      <Col>
+<div label="Stroke width " className="txt ">
+      <CircularProgressbar
+        value={60}
+        text={`60%`}
+        strokeWidth={5} styles={buildStyles({
+          textColor: "#9461D6",
+          pathColor: "#9461D6"
+        })}
+      />
+      UI Design
+    </div>
+    </Col>
+      </Row>
+
+
    </Row>
     </Col>
 <br />  <br />
 <br />  <br />
-       <Col sm>
+       <Col sm md>
        <div className="cont1"> 
 TOOLS </div> <br />
        
 
        <Row>
 <Col>
-<ProgressBar className="txt" variant={"prog"} animated now={90} label={`Github`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={100} label={`Sublime text`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={90} label={`Visual Studio Code`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={80} label={`Figma`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={80} label={`Jupyter Notebook`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={90} label={`Github`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={100} label={`Sublime text`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={90} label={`Visual Studio Code`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={80} label={`Figma`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={80} label={`Jupyter Notebook`}  /> <br />
 </Col>
          </Row>
          <Row>
            <Col>
-           <ProgressBar className="txt" variant={"prog"} animated now={90} label={`Google Colab`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={80} label={`Adobe XD`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={60} label={`Adobe Photoshop`}  /> <br />
-<ProgressBar className="txt" variant={"prog"} animated now={60} label={`Adobe Illustrator`}  />
+           <ProgressBar className="txt1" variant={"prog"} animated now={90} label={`Google Colab`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={80} label={`Adobe XD`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={60} label={`Adobe Photoshop`}  /> <br />
+<ProgressBar className="txt1" variant={"prog"} animated now={60} label={`Adobe Illustrator`}  />
 
            </Col>
          

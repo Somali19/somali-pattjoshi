@@ -49,11 +49,20 @@
 }
 
 .txt {
-    font-size: 10px;
+    font-size: 9px;
     font-family: 'Amaranth', sans-serif;
     color: #706c61;
     margin-left: 20px;
     margin-right: 20px;
+    max-width:50px;
+}
+.txt1 {
+    font-size: 9px;
+    font-family: 'Amaranth', sans-serif;
+    color: #706c61;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width:350px;
 }
 .bg-prog{
     background-color: #9461D6!important;
