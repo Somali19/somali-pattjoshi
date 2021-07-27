@@ -110,42 +110,42 @@ SKILLS </div> <br />
     <Col>
 <div label="Stroke width" className="txt">
       <CircularProgressbar 
-        value={50}
-        text={`50`}
+        value={80}
+        text={`80`}
         strokeWidth={5} styles={buildStyles({
           textColor: "#9461D6",
           pathColor: "#9461D6"
         })}
         
       />
-      JavaScript
+      C++
     </div>
     </Col>
     <Col>
 <div label="Stroke width" className="txt">
       <CircularProgressbar 
-        value={80}
-        text={`80%`}
+        value={40}
+        text={`40%`}
         strokeWidth={5} styles={buildStyles({
           textColor: "#9461D6",
           pathColor: "#9461D6"
         })}
         
       />
-      Responsive Design
+      React JS
     </div>
     </Col>
     <Col>
 <div label="Stroke width" className="txt">
       <CircularProgressbar
-        value={75}
-        text={`75%`} 
+        value={85}
+        text={`85%`} 
         strokeWidth={5} styles={buildStyles({
           textColor: "#9461D6",
           pathColor: "#9461D6"
         })}
       />
-     Tailwind CSS
+     C
     </div>
     </Col>
     <Col>
@@ -175,7 +175,7 @@ SKILLS </div> <br />
           })}
           
         />
-        C
+     Tailwind CSS
       </div>
       </Col>
       <Col>
@@ -189,7 +189,7 @@ SKILLS </div> <br />
           })}
           
         />
-        C++
+        JavaScript
       </div>
       </Col>
       <Col>
