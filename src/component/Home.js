@@ -36,9 +36,7 @@ const Home = ( ) => {
 /> </h4>
       <br />
      
-   <a href="https://drive.google.com/file/d/1SebyE70nqbah2YLIJ5jU7nJ19mUAC2wT/view?usp=sharing">   <Badge className="bd1 hvr-glow" pill bg="primary"  >
-    Resume
-  </Badge> </a>
+   <br />
       <hr className="lines " />
     <br />
     
