@@ -165,7 +165,7 @@ SKILLS </div> <br />
     <Row>
     <Col>
   
-  <div label="Stroke width" className="txt hvr-float">
+  <div label="Stroke width" className="txt">
         <CircularProgressbar 
           value={80}
           text={`80%`}
@@ -179,7 +179,7 @@ SKILLS </div> <br />
       </div>
       </Col>
       <Col>
-  <div label="Stroke width" className="txt hvr-float">
+  <div label="Stroke width" className="txt">
         <CircularProgressbar 
           value={75}
           text={`75%`}
@@ -193,7 +193,7 @@ SKILLS </div> <br />
       </div>
       </Col>
       <Col>
-  <div label="Stroke width" className="txt hvr-float">
+  <div label="Stroke width" className="txt">
         <CircularProgressbar
           value={60}
           text={`60%`} 
@@ -223,7 +223,7 @@ SKILLS </div> <br />
       <Row>
     <Col>
   
-  <div label="Stroke width" className="txt hvr-float">
+  <div label="Stroke width" className="txt">
         <CircularProgressbar 
           value={60}
           text={`60%`}
@@ -237,7 +237,7 @@ SKILLS </div> <br />
       </div>
       </Col>
       <Col>
-  <div label="Stroke width" className="txt hvr-float">
+  <div label="Stroke width" className="txt">
         <CircularProgressbar 
           value={60}
           text={`60%`}
@@ -251,7 +251,7 @@ SKILLS </div> <br />
       </div>
       </Col>
       <Col>
-  <div label="Stroke width" className="txt hvr-float">
+  <div label="Stroke width" className="txt">
         <CircularProgressbar
           value={80}
           text={`80%`} 
